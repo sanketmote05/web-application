@@ -15,5 +15,6 @@ spec:
       containers:
       - name: flask-container
         image: flask-minikube
+        imagePullPolicy: Never
         ports:
         - containerPort: 5000
